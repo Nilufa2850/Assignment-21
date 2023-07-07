@@ -5,7 +5,6 @@ question 1 ] */
 #include<string.h>
 
 struct employee input () ;
-void display ( struct employee ) ;
 
 struct employee 
 {
@@ -20,7 +19,7 @@ int main ()
 {
     struct employee x ;
     x = input () ;
-    display (x) ;
+    
     return 0 ;
 
 }
@@ -41,8 +40,3 @@ struct employee input ()
 
 }
 
-void display ( struct employee y)
-{
-    printf("%d %s %.2f" , y.id , y.name , y.salary) ;
-
-}
