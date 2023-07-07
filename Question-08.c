@@ -11,10 +11,10 @@ struct student
 
 int main ()
 {
-    struct student x [2] ;
+    struct student x [10] ;
     int i ;
 
-    for(i=0 ; i<2 ; i++)
+    for(i=0 ; i<10 ; i++)
     {
         printf("\nEnter Roll no , name  & marks : ");
 
@@ -27,7 +27,7 @@ int main ()
 
     printf("\nOUTPUT : ") ;
 
-    for(i=0 ; i<2 ; i++)
+    for(i=0 ; i<10 ; i++)
         printf("\n%d %s %.2f" ,x[i].RollNo , x[i].name , x[i].mark) ;
         return 0 ;
 }
